@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Portfolio</title>
+
+    <!--FONT AWESOME-->
+    <link rel="stylesheet" href="Library_Boostrap/css/all.css">
+    <!--MAIN CSS-->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!---HEADER DESIGN-->
+    <header class="header">
+        <a href="#" class="logo">PORTFOLIO</a>
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+         
+        <nav class="navbar">
+            <a href="#home" class="active">HOME</a>
+            <a href="#about">ABOUT</a>   
+            <a href="#education">EDUCATION</a>
+            <a href="#hobbies">HOBBIES</a>
+            <a href="#contact">CONTACT</a>
+        </nav>
+    </header>
+
+    <!--HOME SECTION-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi, I'm Angeline Langam</h3>
+            <h1>UI / UX DESIGNER</h1>
+            <p><b>I have a deep passion for designing and love the process of learning new skills <br>while taking
+                on new challenges. I'm eager to grow both personally and <br>professionally as I apply my knowledge in design.</b></p>
+        </div>
+
+        <div class="home-img">
+            <img src="image/Profile pic.jpg" alt="No Image"> 
+        </div>
+    </section>
+
+    <!--ABOUT SECTION -->
+    <section class="about" id="about">
+    <h2 class="heading">ABOUT</h2>
+
+    <div class="about-cards-container">
+        <!-- Personal Information Card -->
+        <div class="info-card personal-card">
+            <div class="card-header">
+                <h2 class="card-title">Personal Information & Objectives</h2>
+            </div>
+            <div class="card-divider"></div>
+            <div class="card-content">
+                <div class="info-row">
+                    <span class="info-label">Name:</span>
+                    <span class="info-value">Angeline Langam</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Age:</span>
+                    <span class="info-value">21 years old</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Birth Date:</span>
+                    <span class="info-value">November 14, 2004</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Address:</span>
+                    <span class="info-value">Zone 1-C Kinasanghan Iponan, CDOC</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Education:</span>
+                    <span class="info-value">UI/UX Designer Student at Opol Community College</span>
+                </div>
+                <div class="objective-text">
+                    <p><i>My passion for design is driven by a commitment to continuous learning and growth. I believe that overcoming challenges and failures is an essential part of personal and professional development, and I embrace these experiences as valuable lessons on my journey.</i></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Skills Card -->
+        <div class="info-card skills-card">
+            <div class="card-header">
+                <h2 class="card-title">Skills</h2>
+            </div>
+            <div class="card-divider"></div>
+            <div class="card-content">
+                <ul class="skills-list">
+                    <li>Visual Design</li>
+                    <li>Communication and Collaboration</li>
+                    <li>Basic Prototyping</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!--EDUCATION SECTION-->
+    <section class="education" id="education">
+        <h2 class="heading">MY EDUCATIONAL BACKGROUND</h2>
+
+        <div class="education-container">
+            <div class="education-box">
+                <a href="https://web.facebook.com/profile.php?id=100057441549322" target="_blank"><img src="image/Iponan Elem School.jpg" class="school-logo" alt="No Image"></a>
+                <h3>Elementary Education</h3>
+                <h4>IPONAN ELEMENTARY SCHOOL</br> <br/>SY: 2016-2017</h4>
+                <p>WITH HONORS
+                    <br>ENTHUSIASTIC LEARNER AWARDEE
+                    PRUDENT WORKER AWARDEE
+                </p>
+            </div>
+
+            <div class="education-box">
+                <a href="https://boyjibs.wixsite.com/website" target="_blank"><img src="image/Bulua National High School.jpg" class="school-logo" alt="No Image"></a>
+                <h3>Secondary Education</h3>
+                <h4>BULUA NATIONAL HIGH SCHOOL<br/> <br/>SY: 2022-2023</h4>
+                <p>WITH HONORS
+                    <br>WORK IMMERSION AWARDEE
+                    ENTERPRENEURSHIP AWARDEE
+                </p>
+            </div>
+
+            <div class="education-box">
+                <a href="https://www.occ.edu.ph/" target="_blank"><img src="image/OCC.jpg" class="school-logo" alt="No Image"></a>
+                <h3>Tertiary Education</h3>
+                <h4>OPOL COMMUNITY COLLEGE <br> <br><br>SY: 2023</h4>
+                <p><br>Finished 1st Year</p>
+            </div>
+        </div> 
+    </section> 
+
+    <!-- HOBBIES SECTION -->
+    <section class="hobbies" id="hobbies">
+        <h2 class="heading">MY HOBBIES</h2>
+
+        <div class="hobbies-container">
+            <!-- Games Box - Clickable -->
+            <a href="#games-popup" class="hobbies-box">
+                <img src="image/Games.jpg" alt="Games">
+                <div class="hobbies-layer">
+                    <h4>PLAYING MOBILE GAMES</h4>
+                    <p>Click to view gallery</p>
+                </div>
+            </a>
+
+            <!-- Photography Box -->
+            <a href="#photo-popup" class="hobbies-box">
+                <img class="photo-img" src="image/Photograph.jpg" alt="Photography">
+                <div class="hobbies-layer">
+                    <h4>PHOTOGRAPHY</h4>
+                    <p>Click to view gallery</p>
+                </div>
+            </a>
+
+            <!-- Kdrama Box-->
+            <a href="#kdrama-popup" class="hobbies-box">
+                <img class="watch-img" src="image/kdrama.jpg" alt="Kdrama">
+                <div class="hobbies-layer">
+                    <h4>WATCHING KDRAMA</h4>
+                    <p>Click to view gallery</p>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- GAMES POPUP -->
+    <!-- GAMES POPUP -->
+<div id="games-popup" class="popup-overlay">
+    <div class="popup-content">
+        <div class="popup-header">
+            <h3>Game Moments</h3>
+            <a href="#hobbies" class="popup-close">&times;</a>
+        </div>
+        <div class="popup-gallery-container">
+            <div class="popup-gallery">
+                <img src="image/game 1.jpg" alt="Game 1">
+                <img src="image/game 2.jpg" alt="Game 2">
+                <img src="image/game 3.jpg" alt="Game 3">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- PHOTOGRAPHY POPUP -->
+<div id="photo-popup" class="popup-overlay">
+    <div class="popup-content">
+        <div class="popup-header">
+            <h3>Photo Gallery</h3>
+            <a href="#hobbies" class="popup-close">&times;</a>
+        </div>
+        <div class="popup-gallery-container">
+            <div class="popup-gallery">
+                <img src="image/photography 1.jpg" alt="Photo 1">
+                <img src="image/photography 2.jpg" alt="Photo 2">
+                <img src="image/photography 3.jpg" alt="Photo 3">
+                <img src="image/photography 4.jpg" alt="Photo 4">
+                <img src="image/photography 5.jpg" alt="Photo 5">
+                <img src="image/photography 6.jpg" alt="Photo 6">
+                <img src="image/photography 7.jpg" alt="Photo 7">
+                <img src="image/photography 8.jpg" alt="Photo 8">
+                <img src="image/photography 9.jpg" alt="Photo 9">
+                <img src="image/photography 10.jpg" alt="Photo 10">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- KDRAMA POPUP -->
+<div id="kdrama-popup" class="popup-overlay">
+    <div class="popup-content">
+        <div class="popup-header">
+            <h3>K-Drama Favorites</h3>
+            <a href="#hobbies" class="popup-close">&times;</a>
+        </div>
+        <div class="popup-gallery-container">
+            <div class="popup-gallery">
+                <img src="image/kdrama 1.jpg" alt="Kdrama 1">
+                <img src="image/kdrama 2.jpg" alt="Kdrama 2">
+                <img src="image/kdrama 3.jpg" alt="Kdrama 3">
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- CONTACT SECTION-->
+    <section class="contact" id="contact">
+        <h2 class="heading">CONTACT FORM</h2>
+        
+        <div class="contact-wrapper">
+            <!-- SOCIAL MEDIA WITH LABELS -->
+            <div class="contact-info">
+                <div class="social-links">
+                    <a href="https://web.facebook.com/angelxyl" target="_blank" class="fb">
+                        <i class="fa-brands fa-square-facebook"></i>
+                        <span>Facebook</span>
+                    </a>
+                    <a href="https://www.instagram.com/angeliyne_/" target="_blank" class="insta">
+                        <i class="fa-brands fa-square-instagram"></i>
+                        <span>Instagram</span>
+                    </a>
+                    <a href="https://www.tiktok.com/@angeliiyne" target="_blank" class="tiktok">
+                        <i class="fa-brands fa-tiktok"></i>
+                        <span>TikTok</span>
+                    </a>
+                    <a href="https://www.gmail.com" target="_blank" class="gmail">
+                        <img src="image/gmail-icon.png" alt="Gmail" width="16" height="15">
+                        <span>Gmail</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- CONTACT FORM -->
+            <div class="contact-form">
+                <form action="https://formsubmit.co/angelinelangam4@gmail.com" method="POST">
+                    <input type="text" name="Name" placeholder="Full Name" required>
+                    <input type="email" name="Email" placeholder="Email" required>
+                    <textarea name="Message" placeholder="Message" required></textarea>
+                    <button class="btn" type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    <!--FOOTER SECTION-->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>&copy; Angeline Langam | All Rights Reserved.</p>
+        </div>
+    </footer>
+    
+    <!--JS-->
+    <script src="function.js"></script>
+</body>
+</html>
